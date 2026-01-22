@@ -1,0 +1,27 @@
+.Page{
+    width: 1920px;
+    height: 1080px;
+
+    padding-bottom: 60px;
+    padding-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.Page_buttonContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.Page__Map{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 20px;
+
+    width: 1200px;
+    height: auto;
+}

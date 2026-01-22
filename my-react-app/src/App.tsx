@@ -5,7 +5,7 @@ import Main from './page/Main'
 function App() {
 
   return (
-    <main className={styles.Page}>
+    <main className={styles.App}>
       <Main />
     </main>
   )

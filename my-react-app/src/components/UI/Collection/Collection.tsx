@@ -12,18 +12,29 @@ function Collection({collection}:CollectionProps) {
   return (
     <article className={styles.Collection}>
       
-        <div>
-            <img src={collection.pic1}/>
+        <div className={styles.Collection__bigWrapper}>
+            <img src={collection.pic1} className={styles.pic}/>
         </div>
 
-        <div>
-            <img src={collection.pic2}/>
-            <img src={collection.pic3}/>
+        <div className={styles.Collection__rowContainer}>
+            
+            <div className={styles.rowContainer__smallWrapper}>
+                <img src={collection.pic2} className={styles.pic}/>
+            </div>
+
+            <div className={styles.rowContainer__smallWrapper}>
+                <img src={collection.pic3} className={styles.pic}/>
+            </div>
+            
         </div>
 
-        <h2>{collection.label}</h2>
-        
-        <h3>{collection.tag}</h3>
+        <h2 className={styles.Collection__label}>
+            {collection.label}
+        </h2>
+
+        <h3 className={styles.Collection__tag}>
+            {collection.tag}
+        </h3>
 
     </article>
   )

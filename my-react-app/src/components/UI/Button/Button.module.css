@@ -1,0 +1,23 @@
+.Button{
+    background-color: white;
+
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+
+    min-width: 40px;
+    min-height: 30px;
+
+    padding: 5px;
+    
+    border: none;
+    border-radius: 12px;
+}
+.Button:hover{
+    background-color: black;
+    color: white;
+}
+.Button:disabled{
+    background-color: black;
+    color: white;
+}

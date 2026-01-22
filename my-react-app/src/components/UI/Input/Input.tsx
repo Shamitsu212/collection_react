@@ -16,6 +16,7 @@ function Input({value, setValue}:InputProps) {
         className={styles.input}
         type="text"
         value={value}
+        placeholder='Поиск'
         onChange={(e) => setValue(e.target.value)}
     >
     
